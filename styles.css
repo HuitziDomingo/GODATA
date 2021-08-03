@@ -1,0 +1,25 @@
+.flx-aro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media all and (min-width: 800px) {
+  .flx-btw {
+    display: flex;
+    justify-content: stretch;
+    align-items: baseline;
+  }
+}
+
+.text-orange {
+  color: rgba(255, 81, 0, 0.904);
+  font-size: 2rem;
+}
+
+.fw-black {
+  color: #111 !important;
+}
+.bg-gray {
+    background-color: #ccc;
+}
